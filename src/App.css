@@ -1,0 +1,24 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination > li {
+    padding: 0 1vmax;
+}
+
+.pagination .selected {
+    color: #fff;
+    border-radius: 2vw;
+    background-color: tomato;
+}
+
+.previous > a,
+.next > a {
+
+    text-decoration: none;
+    color: white !important;
+    background-color: black;
+    padding: 0.25vmax 0.5vmax;
+    
+}
